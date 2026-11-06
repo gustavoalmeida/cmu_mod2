@@ -33,4 +33,16 @@ Tema Agricultura
 ##### Link
 https://www.pordata.pt/db/portugal/ambiente+de+consulta/tabela/5844454
 
+### 2. Ajudas do Pagamento Único (PU) 2015--2022
 
+## Modelo integrado de dados
+
+### Mapeamento de variáveis
+A variável "região" tem designações diferentes nos datasets, embora deva corresponder a uma região NUTS. Serão consolidados numa única designação através de um código NUTS.
+
+O que aconteceu foi que em 2024 foram criadas 3 novas regioes NUTSII, desdobrando a região "Lisboa e vale do Tejo". No dataset 1, serão somados as regioes xx, xx e xx para obter o valor correspondente.
+
+Criação das NUTS II correspondentes a "Lisboa e vale do Tejo" ([link para a fonte](https://ra2019.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_faqs&FAQSfaq_boui=655407417&FAQSmodo=1&xlang=pt)):
+- Grande Lisboa - municípios a norte do Tejo da extinta Área Metropolitana de Lisboa.
+- Península de Setúbal - municípios a sul do Tejo da extinta Área Metropolitana de Lisboa.
+- Oeste e Vale do Tejo - municípios das NUTS III Oeste, Lezíria do Tejo e Médio Tejo.
